@@ -136,9 +136,5 @@ Shelley execute builtin commands in interactive mode.
 
 ## Authors
 
-Giovanny Perez - [@ledbag] Holberton School Colombia Student
-Haroldo Velez - [@harovlz] Holberton School Colombia Student
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+Giovanny Perez - [Twitter @ledbag] Holberton School Colombia Student
+Haroldo Velez - [Twitter @harovlz] Holberton School Colombia Student
