@@ -12,7 +12,7 @@ Shelley's code is C language and it's construction is part of advanced projects 
 Clone this repository in a new directory in your machine. 
 
 ```sh
-<b> git clone https://github.com/ledbagholberton/simple_shell.git </b>
+git clone 
 ```
 
 Run the "make" command to compile all the c files and copy help files in $HOME directory
