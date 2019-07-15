@@ -46,7 +46,7 @@ Shelley execute builtin commands in interactive mode.
 
 <b>built_cd</b>            - Builtin function cd
 
-<b>cd_parent<b>           - Builtin function cd in parent
+<b>cd_parent</b>           - Builtin function cd in parent
 
 <b>built_history</b>       - Builtin function history 
 
