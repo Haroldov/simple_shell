@@ -57,16 +57,15 @@ $
 
 ## Functions used
 
-<b>built_exit</b>          - Builtin function exit
+| Function | Description |
+| ------ | ------ |
+| built_exit | `Builtin function exit` |
+| built_cd | `Builtin function cd` |
+| cd_parent | `Builtin function cd in parent` |
+| built_history | `Builtin function history `  |
+| engine.c ||
 
-<b>built_cd</b>            - Builtin function cd
-
-<b>cd_parent</b>           - Builtin function cd in parent
-
-<b>built_history</b>       - Builtin function history 
-
-
-<b> ========== engine.c ========== </b>
+<b> ========== engine.c====== ==== </b>
 
 <b>valid_command</b>       - validation function (kernel or builtin)
 
