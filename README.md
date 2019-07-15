@@ -34,7 +34,7 @@ Shelley execute kernel commands in interactive mode.
 
 Shelley execute builtin commands in interactive mode.
 
-##Functions used
+## Functions used
 
 <b>built_exit</b>          - Builtin function exit
 
