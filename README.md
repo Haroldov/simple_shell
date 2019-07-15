@@ -44,6 +44,16 @@ Hello Shelley
 Shelley:/home/vagrant/simple_shell$ 
 ```
 
+Shelley also works in non-interactive mode:
+
+```sh
+$ cat script
+echo Hello Shelley
+$ cat script | ./hsh
+Hello Shelley
+$
+```
+
 
 ## Functions used
 
