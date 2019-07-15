@@ -7,8 +7,6 @@ which be described in last sections of this document.
 
 Shelley's code is C language and it's construction is part of advanced projects from first cohort (I - 2019) of Holberton School in Bogota, Colombia.
 
-![](header.png)
-
 ## How to start
 
 Clone this repository in a new directory in your machine. 
