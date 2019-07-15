@@ -62,7 +62,33 @@ To see the manual you should run:
 $ man ./man_1_simple_shell
 ```
 
-In the manual you will find information about all the commands available for use.
+In the manual you will find information about all the commands available for use. First part of the manual:
+
+```sh
+SHELLEY(1)                 General Commands Manual                  SHELLEY(1)
+
+NAME
+       shelley - GNU Bourne-Again SHell
+
+SYNOPSIS
+       ./hsh
+
+DESCRIPTION
+       Shelley   is  an  sh-compatible  command language interpreter that exe‐
+       cutes commands read from the standard input and can  be  used  interac‐
+       tively.
+
+INVOCATION
+       An  interactive  shell is one started without non-option arguments like
+       this './hsh'. A non interactive shell is one started  by  sending  com‐
+       mands  to  the standard input using pipelines like this 'echo "ls -l" |
+       ./hsh'.
+
+       The  following  paragraphs  describe  how  bash  executes  its  startup
+       files.   If  any of the files exist but cannot be  read,  bash  reports
+       an  error.
+
+```
 
 ## Functions used
 
