@@ -63,85 +63,36 @@ $
 | built_cd | `Builtin function cd` |
 | cd_parent | `Builtin function cd in parent` |
 | built_history | `Builtin function history `  |
-| engine.c ||
-
-<b> ========== engine.c====== ==== </b>
-
-<b>valid_command</b>       - validation function (kernel or builtin)
-
-<b>_which</b>              - path 
-
-<b>check_cd</b>            - support to change dir
-
-<b>_strdup</b>             - string copy
-
-<b>get_path</b>            - get home from environ var
-
-
-<b> ========== env_func.c ========== </b>
-
-<b>create_env</b>          - make a copy from environ var
-
-<b>_env</b>                - Builtin function env
-
-
-<b> ========== error.c ========== </b>
-
-<b>pperror</b>             - our perror function
-
-<b> ========== _getline.c ========== </b>
-
-<b>get_home</b>            - return $HOME
-
-<b>delete_delim</b>        - support to _strtok
-
-<b>_strcopy</b>            - our strcopy
-
-<b>_realloc</b>            - our realloc
-
-<b>_getline</b>            - our getline
-
-<b> ========== main.c ========== </b>
-
-<b>main</b>                - main function
-
-<b>.init_file</b>           - initialization of variables
-
-<b>CTRLC</b>               - Ctrl-C function
-
-<b> ========== shell.c ========== </b>
-
-<b>invoke_shell</b>        - starting shell
-
-<b>hand_status</b>         - handling status from exit builtin
-
-<b>print_prompt</b>        - printing prompt 
-
-<b>check_interactive</b>   - support to interactive mode
-
-<b> ========== string_op.c ========== </b>
-
-<b>split</b>               - split of strings
-
-<b>_strncmp</b>            - our strcmp
-
-<b>str_concat</b>          - concatenation of strings
-
-<b>_atoi</b>               - our atoi functions
-
-<<b>_strlen</b>             - our strlen function
-
-<b> ========== _strtok.c ========== </b>
-
-<b>is_in_delim</b>         - support to _strtok function
-
-<b>look_first_char</b>     - support to -strtok function
-
-<b>look_first_delim</b>    - support to -strtok function
-
-<b>look_last_delim</b>     - support to -strtok function
-
-<b>_strtok</b>             - our strtok function
+| valid_command | `validation function (kernel or builtin)` |
+| \_which | `path` |
+| check_cd | `support to change dir` |
+| \_strdup | `string copy` |
+| get_path | ` get home from environ var`  |
+| create_env | `make a copy from environ var` |
+| \_env | `Builtin function env` |
+| pperror | `our perror function` |
+| get_home | `return $HOME` |
+| delete_delim | `support to _strtok`  |
+| \_strcopy | `our strcopy` |
+| \_realloc | `our realloc` |
+| \_getline | `our getline` |
+| main | `main function` |
+| .init_file | `initialization of variables`  |
+| CTRLC | `Ctrl-C handling` |
+| invoke_shell | `starting shell` |
+| hand_status | `handling status from exit built-in` |
+| print_prompt | `printing prompt ` |
+| check_interactive | `support to interactive mode` |
+| split | `string tokenizer`  |
+| \_strncmp | `out strcmp` |
+| str_concat | `concatenation of strings` |
+| \_atoi | `our atoi function` |
+| \_strlen | `our strlen function` |
+| is_in_delim | `support to _strtok function` |
+| look_first_char | `support to _strtok function`  |
+| look_first_delim | `support to _strtok function` |
+| look_last_delim | `support to _strtok function` |
+| \_strtok | `our strtok function` |
 
 ## Release History
 
