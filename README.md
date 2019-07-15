@@ -22,23 +22,28 @@ cd simple_shell && make
 ```
 
 Now the executable file <hsh> was generated and it will run to Shelley.
-
+   
 ```sh
 ./hsh
 ```
 
 ## Usage example
 
-Shelley execute kernel commands in non-interactive mode. 
+Let's use the <b>ls</b> command for listing files in the current directory:
 
+```sh
+Shelley:/home/vagrant/simple_shell$ ls
+AUTHORS  docs  help_files  hsh	Makefile  man_1_simple_shell  README.md  source
+```
 
-Shelley execute builtin commands in non interacive mode.
+Let's use the echo to welcome Shelley!:
 
+```sh
+Shelley:/home/vagrant/simple_shell$ echo Hello Shelley
+Hello Shelley
+Shelley:/home/vagrant/simple_shell$ 
+```
 
-Shelley execute kernel commands in interactive mode.
-
-
-Shelley execute builtin commands in interactive mode.
 
 ## Functions used
 
