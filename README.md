@@ -1,5 +1,7 @@
 # Project Shell Simple (alias Shelley)
 
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 Shelley is a simple shell running in Linux environment which is able to run Kernel commands and some builtin commands 
 which be described in last sections of this document.
 
