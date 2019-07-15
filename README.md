@@ -18,7 +18,7 @@ git clone https://github.com/Haroldov/simple_shell.git
 Run the "make" command to compile all the c files and copy help files in $HOME directory
 
 ```sh
-make
+cd simple_shell && make
 ```
 
 Now the executable file <hsh> was generated and it will run to Shelley.
