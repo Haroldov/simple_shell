@@ -54,6 +54,15 @@ Hello Shelley
 $
 ```
 
+## Manual
+
+To see the manual you should run:
+
+```sh
+$ man ./man_1_simple_shell
+```
+
+In the manual you will find information about all the commands available for use.
 
 ## Functions used
 
